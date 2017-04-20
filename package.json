@@ -1,33 +1,33 @@
 {
-  "name": "graphql_middleware",
-  "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "node_modules/.bin/mocha tests",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andela-hoyeboade/graphql_middleware.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/andela-hoyeboade/graphql_middleware/issues"
-  },
-  "homepage": "https://github.com/andela-hoyeboade/graphql_middleware#readme",
-  "devDependencies": {
-    "expect": "^1.20.2",
-    "gulp": "^3.9.1",
-    "gulp-mocha": "^4.3.0",
-    "mocha": "^3.2.0"
-  },
-  "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "express-graphql": "^0.6.4",
-    "graphql": "^0.9.3",
-    "graphql-server-express": "^0.7.1"
-  }
+    "name": "graphql_middleware",
+    "version": "1.0.0",
+    "description": "",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "node_modules/.bin/mocha tests/**/*.js",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/andela-hoyeboade/graphql_middleware.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/andela-hoyeboade/graphql_middleware/issues"
+    },
+    "homepage": "https://github.com/andela-hoyeboade/graphql_middleware#readme",
+    "devDependencies": {
+        "expect": "^1.20.2",
+        "gulp": "^3.9.1",
+        "gulp-mocha": "^4.3.0",
+        "mocha": "^3.2.0"
+    },
+    "dependencies": {
+        "body-parser": "^1.17.1",
+        "express": "^4.15.2",
+        "express-graphql": "^0.6.4",
+        "graphql": "^0.9.3",
+        "graphql-server-express": "^0.7.1"
+    }
 }
