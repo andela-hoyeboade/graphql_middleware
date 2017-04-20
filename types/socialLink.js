@@ -1,4 +1,4 @@
-const { GraphQLString } = require('graphql');
+const { GraphQLString, GraphQLObjectType } = require('graphql');
 
 const SocialLinkType = new GraphQLObjectType({
     name: 'SocialLink',

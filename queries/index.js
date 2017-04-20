@@ -4,15 +4,15 @@ const {
     GraphQLString,
     GraphQLSchema
 } = require('graphql');
-const EventQuery = require('./event');
-const HeroQuery = require('./hero');
+const TextQuery = require('./text');
+const ButtonQuery = require('./button');
 
 const RootQueryType = new GraphQLObjectType({
     name: 'RootQuery',
 
     fields: () => ({
-        Event: EventQuery,
-        Hero: HeroQuery,
+        Text: TextQuery,
+        Button: ButtonQuery,
     })
 });
 

@@ -1,4 +1,4 @@
-const { GraphQLString } = require('graphql');
+const { GraphQLString, GraphQLList } = require('graphql');
 
 const VideoTextType = new GraphQLObjectType({
     name: 'VideoText',
@@ -13,6 +13,9 @@ const VideoTextType = new GraphQLObjectType({
             },
             subtitle: {
                 type: GraphQLString
+            },
+            entries: {
+                type: GraphQLList()
             }
         }
     }

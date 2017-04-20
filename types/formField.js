@@ -1,4 +1,4 @@
-const { GraphQLString, GraphQLList } = require('graphql');
+const { GraphQLString, GraphQLObjectType } = require('graphql');
 
 const FormFieldType = new GraphQLObjectType({
     name: 'FormField',
